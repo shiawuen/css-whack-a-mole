@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whac-a-mole</title>
+  <meta name="viewport" content="width=device-width; ">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div>
+    <input type="radio" class="hide" checked name="m1">
+    <input type="radio" class="hide" checked name="m2">
+    <input type="radio" class="hide" checked name="m3">
+    <input type="radio" class="hide" checked name="m4">
+    <input type="radio" class="hide" checked name="m5">
+    <input type="radio" class="hide" checked name="m6">
+    <input type="radio" class="hide" checked name="m7">
+    <input type="radio" class="hide" checked name="m8">
+    <input type="radio" class="hide" checked name="m9">
+    <input type="radio" class="hide" checked name="m10">
+    <input type="radio" class="hide" checked name="m11">
+    <input type="radio" class="hide" checked name="m12">
+    <input type="radio" class="hide" checked name="m13">
+    <input type="radio" class="hide" checked name="m14">
+    <input type="radio" class="hide" checked name="m15">
+    <input type="radio" class="hide" checked name="m16">
+    <input type="radio" class="hide" checked name="m17">
+    <input type="radio" class="hide" checked name="m18">
+    <input type="radio" class="hide" checked name="m19">
+    <input type="radio" class="hide" checked name="m20">
+    <input type="radio" class="hide" checked name="m21">
+    <input type="radio" class="hide" checked name="m22">
+    <input type="radio" class="hide" checked name="m23">
+    <input type="radio" class="hide" checked name="m24">
+    <input type="radio" class="hide" checked name="m25">
+    <input type="radio" class="hide" checked name="m26">
+    <input type="radio" class="hide" checked name="m27">
+    <input type="radio" class="hide" checked name="m28">
+    <input type="radio" class="hide" checked name="m29">
+    <input type="radio" class="hide" checked name="m30">
+    <input type="radio" class="hide" checked name="m31">
+    <input type="radio" class="hide" checked name="m32">
+    <input type="radio" class="hide" checked name="m33">
+    <input type="radio" class="hide" checked name="m34">
+    <input type="radio" class="hide" checked name="m35">
+    <input type="radio" class="hide" checked name="m36">
+    <input type="radio" class="hide" checked name="m37">
+    <input type="radio" class="hide" checked name="m38">
+    <input type="radio" class="hide" checked name="m39">
+    <input type="radio" class="hide" checked name="m40">
+
+    <div class="score"></div>
+  </div>
+
+  <div class="box slow">
+    <input type="radio" class="hide" name="m1" id="m1">
+    <label class="mole shy" for="m1">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m2" id="m2">
+    <label class="mole fast" for="m2">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m3" id="m3">
+    <label class="mole" for="m3">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m4" id="m4">
+    <label class="mole fast" for="m4">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m5" id="m5">
+    <label class="mole" for="m5">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m6" id="m6">
+    <label class="mole" for="m6">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m7" id="m7">
+    <label class="mole fast" for="m7">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m8" id="m8">
+    <label class="mole" for="m8">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m9" id="m9">
+    <label class="mole fast" for="m9">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m10" id="m10">
+    <label class="mole" for="m10">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+  </div>
+
+  <div class="box">
+    <input type="radio" class="hide" name="m11" id="m11">
+    <label class="mole instant slow" for="m11">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m12" id="m12">
+    <label class="mole slow" for="m12">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m13" id="m13">
+    <label class="mole active" for="m13">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m14" id="m14">
+    <label class="mole fast" for="m14">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m15" id="m15">
+    <label class="mole fast" for="m15">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m16" id="m16">
+    <label class="mole" for="m16">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m17" id="m17">
+    <label class="mole fast" for="m17">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m18" id="m18">
+    <label class="mole shy" for="m18">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m19" id="m19">
+    <label class="mole active" for="m19">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m20" id="m20">
+    <label class="mole" for="m20">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+  </div>
+
+  <div class="box fast">
+    <input type="radio" class="hide" name="m21" id="m21">
+    <label class="mole active" for="m21">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m22" id="m22">
+    <label class="mole" for="m22">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m23" id="m23">
+    <label class="mole slow" for="m23">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m24" id="m24">
+    <label class="mole" for="m24">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m25" id="m25">
+    <label class="mole active slow" for="m25">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m26" id="m26">
+    <label class="mole shy" for="m26">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m27" id="m27">
+    <label class="mole" for="m27">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m28" id="m28">
+    <label class="mole slow" for="m28">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m29" id="m29">
+    <label class="mole active" for="m29">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m30" id="m30">
+    <label class="mole slow" for="m30">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+  </div>
+
+  <div class="box fast">
+    <input type="radio" class="hide" name="m31" id="m31">
+    <label class="mole shy" for="m31">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m32" id="m32">
+    <label class="mole slow" for="m32">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m33" id="m33">
+    <label class="mole slow" for="m33">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m34" id="m34">
+    <label class="mole shy" for="m34">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m35" id="m35">
+    <label class="mole" for="m35">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m36" id="m36">
+    <label class="mole slow" for="m36">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m37" id="m37">
+    <label class="mole" for="m37">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m38" id="m38">
+    <label class="mole" for="m38">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m39" id="m39">
+    <label class="mole shy" for="m39">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+
+    <input type="radio" class="hide" name="m40" id="m40">
+    <label class="mole slow" for="m40">
+      <span class="eyes">
+        <span class="eye eye-left"></span>
+        <span class="eye eye-right"></span>
+      </span>
+      <span class="mouth"></span>
+    </label>
+  </div>
+</body>
+</html>

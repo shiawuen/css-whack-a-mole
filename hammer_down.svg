@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>hammer_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="hammer_down" sketch:type="MSArtboardGroup" transform="translate(0.512266, 0.000000)">
+            <g id="hammer" sketch:type="MSLayerGroup" transform="translate(21.750000, 22.250000) rotate(-90.000000) translate(-21.750000, -22.250000) translate(9.250000, 6.750000)">
+                <rect id="Rectangle-2" fill="#8B572A" sketch:type="MSShapeGroup" x="11" y="13" width="3" height="17.5"></rect>
+                <rect id="Rectangle-1" fill="#FF397B" sketch:type="MSShapeGroup" transform="translate(12.500000, 7.500000) scale(-1, 1) translate(-12.500000, -7.500000) " x="0" y="0" width="25" height="15" rx="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

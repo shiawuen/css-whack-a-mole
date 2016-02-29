@@ -1,0 +1,72 @@
+
+.mole + input + .mole { animation-play-state: paused; }
+:checked + .mole + input + .mole { animation-play-state: running; }
+
+:checked + .mole {
+  background-color: blue;
+  transform: translateY(-9999rem);
+  animation-play-state: paused !important;
+}
+
+:checked + .mole .eye {
+  height: .1rem;
+  top: 1.5rem;
+}
+
+.mole {
+  display: block;
+  background-color: brown;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  border-radius: 50% 50% 0 0;
+  transform: translateY(0);
+  transition: transform 0s .5s;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  animation: mole-show 3s 1.5s cubic-bezier(0.15, 1, 0.15, 1) infinite;
+}
+
+.fast .mole { animation-duration: 1.5s; }
+.slow .mole { animation-duration: 4s; }
+.mole.fast { animation-duration: 1.5s !important; }
+.mole.slow { animation-duration: 5s !important; }
+.mole.instant { animation-delay: 0s; }
+.mole.shy { animation-delay: 2s }
+.mole.active { animation-delay: 1s; }
+
+.eye {
+  display: block;
+  border-radius: 50%;
+  width: .5rem;
+  height: .5rem;
+  background-color: white;
+  position: absolute;
+  top: 1.25rem;
+}
+.eye-left { left: .75rem; }
+.eye-right { right: .75rem; }
+
+.mouth {
+  position: absolute;
+  width: .5rem;
+  height: .25rem;
+  background-color: pink;
+  border-radius: 0 0 50% 50%;
+  left: 0;
+  right: 0;
+  bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes mole-show {
+  0% { bottom: 0; }
+  50% { bottom: 4rem; }
+  100% { bottom: 0; }
+}

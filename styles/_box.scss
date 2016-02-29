@@ -1,0 +1,20 @@
+
+.box {
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  margin: 3rem 1.5rem 1.5rem;
+}
+
+.box:before {
+  display: block;
+  content: '';
+  width: 4rem;
+  height: 4rem;
+  border: .25rem solid #795548;
+  left: -.25rem;
+  top: -.25rem;
+  background-color: #443530;
+  position: absolute;
+  z-index: 1;
+}
