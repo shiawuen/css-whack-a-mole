@@ -1,0 +1,7 @@
+
+html,
+.mole { cursor: url(../hammer_up.svg) 30 30, auto; }
+
+html:active,
+body:active,
+.mole:active { cursor: url(../hammer_down.svg) 30 30, auto; }

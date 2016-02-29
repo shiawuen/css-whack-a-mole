@@ -1,0 +1,10 @@
+@import url(_cursor.css);
+@import url(_game-wrapper.css);
+@import url(_mole.css);
+@import url(_box.css);
+@import url(_score.css);
+
+/*// base size for mole size*/
+html { font-size: 20px; }
+
+.hide { display: none; }
