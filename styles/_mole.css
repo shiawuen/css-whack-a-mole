@@ -13,6 +13,14 @@
   top: 1.5rem;
 }
 
+.click-target {
+  position: absolute;
+  top: -1rem;
+  left: -.5rem;
+  right: -.5rem;
+  bottom: 0;
+}
+
 .mole {
   display: block;
   background-color: brown;
